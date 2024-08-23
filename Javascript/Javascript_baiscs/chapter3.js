@@ -241,4 +241,13 @@ console.log(specialstring);
      // that means we cannot change the string once it is created
      // but we can create a new string based on the old string
 
-     
+
+
+       // practice 
+// prompt the user to enter their full name . and generate a user name for them based on teh inpurt   starts the user name with @ , followed by theri full aname and endding with the full name length
+ 
+// eg user name shadrakhapa will be @shadrakhapa10
+
+let fullName = prompt("Enter your full name");
+let userName = "@" + fullName + fullName.length;
+
