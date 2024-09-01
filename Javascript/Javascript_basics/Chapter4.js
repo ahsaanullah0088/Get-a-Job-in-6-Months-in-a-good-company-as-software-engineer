@@ -110,3 +110,36 @@ for(let val of prices){
     console.log(val)
 }
 
+
+// Array methods 
+
+// push() -> add an item at the end of the array
+// pop() -> remove an item from the end of the array
+// shift() -> remove an item from the start of the array
+// unshift() -> add an item at the start of the array
+// splice() -> add or remove an item from the array at any position
+// slice() -> create a new array from the existing array
+// indexOf() -> find the index of an item in the array
+// includes() -> check if an item exists in the array
+// concat() -> merge two arrays
+// reverse() -> reverse the array
+// join() -> convert the array to a string
+// sort() -> sort the array
+// filter() -> filter the array based on a condition
+// map() -> create a new array based on the existing array
+// reduce() -> reduce the array to a single value
+// forEach() -> iterate over the array
+// find() -> find the first item based on a condition
+// findIndex() -> find the index of the first item based on a condition
+// some() -> check if any item satisfies a condition
+// every() -> check if all items satisfy a condition
+// fill() -> fill the array with a static value
+// flat() -> flatten the array
+// flatMap() -> flatten and map the array
+// keys() -> get the keys of the array
+// values() -> get the values of the array
+// entries() -> get the key-value pairs of the array
+// from() -> create an array from an array-like object
+// of() -> create an array from the arguments
+// isArray() -> check if an object is an array
+
