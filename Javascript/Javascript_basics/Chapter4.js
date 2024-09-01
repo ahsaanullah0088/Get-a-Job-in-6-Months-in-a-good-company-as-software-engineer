@@ -46,5 +46,34 @@ let marks = [10,20,30,40,50,60,70,80,90,100];
 
     console.log(marks[100]) // undefined 
 
-    // 
+    // looping over an array ...
+    // print all the items in the array using loop 
+
+
+    let arr = [10,20,30,40,50,60,70,80,90,100];
+
+    // for loop : 
+
+    for(let i=0;i<arr.length;i++){
+        console.log(arr[i])
+    }
+
+    // index 0 se jae ga uski value print kare ga phir index 1 se jae ga uski value print kare ga phir index 2 se jae ga uski value print kare ga phir index 3 se jae ga uski value print kare ga phir index 4 se jae ga uski value print kare ga phir index 5 se jae ga uski value print kare ga phir index 6 se jae ga uski value print kare ga phir index 7 se jae ga uski value print kare ga phir index 8 se jae ga uski value print kare ga phir index 9 se jae ga uski value print kare ga
+
+    // phir loop khatam ho jae ga
+
+    // we can also use for of loop or for in loop 
+
+
+    for(let item of arr){
+        console.log(item)
+    }
+
+    // for of loop is used to iterate over the array
+
+    // for in loop is used to iterate over the object
+
+
+
+
 
