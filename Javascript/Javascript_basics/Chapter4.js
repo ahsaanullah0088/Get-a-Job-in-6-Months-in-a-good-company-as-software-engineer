@@ -65,15 +65,27 @@ let marks = [10,20,30,40,50,60,70,80,90,100];
     // we can also use for of loop or for in loop 
 
 
-    for(let item of arr){
-        console.log(item)
-    }
+    // for(let item of arr){
+    //     console.log(item)
+    // }
 
     // for of loop is used to iterate over the array
 
     // for in loop is used to iterate over the object
 
+// practice question //
 
+// for a given array with marks of students -> [ 85 , 97 , 44 , 37, 76 , 60 , ]  find the average marks of the entire class.. 
+
+let mark = [85,97,44,37,76,60];
+let n = mark.length;
+
+let sum = 0;
+for(let val of mark){
+    sum += val; 
+}
+let avg = sum/n;
+console.log(avg);
 
 
 
