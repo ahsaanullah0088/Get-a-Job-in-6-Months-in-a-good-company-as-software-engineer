@@ -89,3 +89,24 @@ console.log(avg);
 
 
 
+// practice question 2 
+
+// for a given array with prices of 5 items -> [250 , 645 , 300, 900, 50] all items have an order of 10% OFF ON THEM . change teh arra to sore the final price after applying the offer 
+
+
+let prices = [250,645,300,900,50];
+
+// for(let i=0;i<prices.length;i++){
+//     prices[i] = prices[i] - prices[i]*0.1;
+// }
+
+// console.log(prices)
+
+/// second method 
+
+for(let val of prices){
+    let discount = val/10;
+    val = val - discount;
+    console.log(val)
+}
+
