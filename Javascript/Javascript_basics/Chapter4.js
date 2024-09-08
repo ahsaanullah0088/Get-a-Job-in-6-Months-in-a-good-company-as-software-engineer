@@ -143,3 +143,35 @@ for(let val of prices){
 // of() -> create an array from the arguments
 // isArray() -> check if an object is an array
 
+// practice question 3 
+
+// lets create an array to store companites -> ['google','facebook','amazon','microsoft','tesla']
+
+// a . Removie the first company form the array 
+
+// b . Remove facebook from the array
+
+// c . Add ibm at the end 
+
+let companies = ['google','facebook','amazon','microsoft','tesla'];
+
+
+// a . Removie the first company form the array
+
+companies.shift();
+console.log(companies)
+
+// b . Remove facebook from the array
+
+let index = companies.indexOf('facebook');
+companies.splice(index,1);
+console.log(companies)
+
+
+
+// c . Add ibm at the end
+
+
+companies.push('ibm');
+
+console.log(companies)
