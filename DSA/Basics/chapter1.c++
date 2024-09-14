@@ -17,4 +17,10 @@
 // output
 
 // decision components  to check conditions 
-//
+ 
+
+ // pseudo code 
+   // General logic of the solution 
+
+
+   /// pr
