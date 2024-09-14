@@ -11,3 +11,5 @@ var numsum = func();
 console.log(numsum(2))
 
 // closers are functions that refer to independent variables. In other words, the function defined in the closure 'remembers' the environment in which it was created.
+
+// example leetcode problem 2620
